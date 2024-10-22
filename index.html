@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тижневий Планер</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>ТИЖНЕВИЙ ПЛАНЕР</h1>
+            <div class="week-info">
+                <div class="week-info-item">
+                    <label for="week-input">Тиждень від:</label>
+                    <input type="text" id="week-input" placeholder="Введіть дату">
+                </div>
+                <div class="week-info-item">
+                    <label for="habit-input">Здорові звички:</label>
+                    <input type="text" id="habit-input" placeholder="Здорові звички">
+                </div>
+                <div class="checkbox-group">
+                    <label><input type="checkbox"> Впоровся</label>
+                    <label><input type="checkbox"> Є куди рости</label>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="goals">
+                <h2>Головні 3 цілі</h2>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="Ціль 1"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="Ціль 2"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="Ціль 3"></div>
+                <h2>Інші завдання</h2>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="Завдання 1"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="Завдання 2"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="Завдання 3"></div>
+                <h2>Наступний тиждень</h2>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="План 1"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="План 2"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="План 3"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="План 4"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="План 5"></div>
+                <div class="goal-item"><input type="checkbox"><input type="text" placeholder="План 6"></div>            
+            </section>
+
+            <section class="days">
+                <div class="day"><h3>Понеділок</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+                <div class="day"><h3>Вівторок</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+                <div class="day"><h3>Середа</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+                <div class="day"><h3>Четвер</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+                <div class="day"><h3>П'ятниця</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+                <div class="day"><h3>Субота</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+                <div class="day"><h3>Неділя</h3><input type="checkbox"><textarea placeholder="Ваші завдання"></textarea></div>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
